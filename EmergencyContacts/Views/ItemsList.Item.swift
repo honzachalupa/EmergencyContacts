@@ -120,10 +120,9 @@ struct WebButton: View {
     let url: DataItem.ContactType.UrlType
     
     var body: some View {
-        if let checkedUrl = url,
-           let urlString = URL(string: checkedUrl) {
+        if let checkedUrl = url {
             Button("Website") {
-                UIApplication.shared.open(urlString)
+                UIApplication.shared.open(URL(string: checkedUrl)!)
             }
         }
     }
@@ -133,9 +132,9 @@ struct MailButton: View {
     let emailAddress: String?
     
     var body: some View {
-        if let emailAddress = emailAddress, let emailAddressUrl = URL(string: "mailto://\(emailAddress)") {
+        if let emailAddress = emailAddress {
             Button("E-mail") {
-                UIApplication.shared.open(emailAddressUrl)
+                UIApplication.shared.open(URL(string: "mailto://\(emailAddress)")!)
             }
         }
     }
@@ -145,17 +144,15 @@ struct CallButton: View {
     let phoneNumbers: DataItem.ContactType.PhoneNumbersType
     
     var body: some View {
-        if phoneNumbers.count == 1, let phoneUrl = URL(string: "tel://\(formatPhoneNumber(phoneNumbers[0]))") {
+        if phoneNumbers.count == 1 {
             Button("Call") {
-                UIApplication.shared.open(phoneUrl)
+                UIApplication.shared.open(URL(string: "tel://\(formatPhoneNumber(phoneNumbers[0]))")!)
             }
         } else if phoneNumbers.count > 1 {
             Menu {
                 ForEach(phoneNumbers, id: \.self) { phoneNumber in
-                    if let phoneUrl = URL(string: "tel://\(formatPhoneNumber(phoneNumber))") {
-                        Button(formatPhoneNumber(phoneNumber)) {
-                            UIApplication.shared.open(phoneUrl)
-                        }
+                    Button(formatPhoneNumber(phoneNumber)) {
+                        UIApplication.shared.open(URL(string: "tel://\(formatPhoneNumber(phoneNumber))")!)
                     }
                 }
             } label: {
