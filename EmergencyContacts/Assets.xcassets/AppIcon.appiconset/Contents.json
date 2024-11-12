@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Emergency-Contacts_Default_iOS.png",
+      "filename" : "Emergency-Contacts_iOS_Default.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,7 +13,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "Emergency-Contacts_Dark_iOS.png",
+      "filename" : "Emergency-Contacts_iOS_Dark.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -25,7 +25,7 @@
           "value" : "tinted"
         }
       ],
-      "filename" : "Emergency-Contacts_Tinted_iOS.png",
+      "filename" : "Emergency-Contacts_iOS_Tinted.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
