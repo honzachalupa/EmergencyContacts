@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Emergency-Contacts_watchOS_Default-woAlpha.png",
+      "filename" : "Emergency-Contacts_watchOS_Default.png",
       "idiom" : "universal",
       "platform" : "watchos",
       "size" : "1024x1024"
