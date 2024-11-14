@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Emergency-Contacts_iOS_Default_woAlpha.png",
+      "filename" : "Emergency-Contacts_iOS_Default_woAlpha.jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -25,13 +25,13 @@
           "value" : "tinted"
         }
       ],
-      "filename" : "Emergency-Contacts_iOS_Tinted_woAlpha.png",
+      "filename" : "Emergency-Contacts_iOS_Tinted_woAlpha.jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
     },
     {
-      "filename" : "Emergency-Contacts_watchOS_Default_woAlpha.png",
+      "filename" : "Emergency-Contacts_watchOS_Default_woAlpha.jpg",
       "idiom" : "universal",
       "platform" : "watchos",
       "size" : "1024x1024"
