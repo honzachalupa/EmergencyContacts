@@ -12,13 +12,11 @@
 		210249622B8B75A4000A37EE /* EmergencyContactsWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210249612B8B75A4000A37EE /* EmergencyContactsWidgetBundle.swift */; };
 		210249642B8B75A4000A37EE /* EmergencyContactsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210249632B8B75A4000A37EE /* EmergencyContactsWidget.swift */; };
 		210249662B8B75A4000A37EE /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210249652B8B75A4000A37EE /* AppIntent.swift */; };
-		210249682B8B75A5000A37EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210249672B8B75A5000A37EE /* Assets.xcassets */; };
 		2102496C2B8B75A5000A37EE /* EmergencyContactsWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2102495B2B8B75A4000A37EE /* EmergencyContactsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		211386FE2B87689A00F5422B /* EmergencyContactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211386FD2B87689A00F5422B /* EmergencyContactsApp.swift */; };
+		211386FE2B87689A00F5422B /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211386FD2B87689A00F5422B /* iOS.swift */; };
 		211387002B87689A00F5422B /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211386FF2B87689A00F5422B /* Index.swift */; };
-		211387132B8768F300F5422B /* EmergencyContactsWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211387122B8768F300F5422B /* EmergencyContactsWatchApp.swift */; };
+		211387132B8768F300F5422B /* watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211387122B8768F300F5422B /* watchOS.swift */; };
 		211387152B8768F300F5422B /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211387142B8768F300F5422B /* Index.swift */; };
-		211387172B8768F400F5422B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211387162B8768F400F5422B /* Assets.xcassets */; };
 		2113871A2B8768F400F5422B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211387192B8768F400F5422B /* Preview Assets.xcassets */; };
 		2113871D2B8768F400F5422B /* EmergencyContactsWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 211387102B8768F300F5422B /* EmergencyContactsWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		212B83C72B8B9B53005B232C /* LookAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B83C62B8B9B53005B232C /* LookAround.swift */; };
@@ -119,17 +117,15 @@
 		210249612B8B75A4000A37EE /* EmergencyContactsWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsWidgetBundle.swift; sourceTree = "<group>"; };
 		210249632B8B75A4000A37EE /* EmergencyContactsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsWidget.swift; sourceTree = "<group>"; };
 		210249652B8B75A4000A37EE /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
-		210249672B8B75A5000A37EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210249692B8B75A5000A37EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		211104932B8A8E56008B3815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		211386FA2B87689A00F5422B /* EmergencyContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmergencyContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		211386FD2B87689A00F5422B /* EmergencyContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsApp.swift; sourceTree = "<group>"; };
+		211386FD2B87689A00F5422B /* iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
 		211386FF2B87689A00F5422B /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
-		211387032B87689B00F5422B /* EmergencyContacts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EmergencyContacts.entitlements; sourceTree = "<group>"; };
+		211387032B87689B00F5422B /* iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS.entitlements; sourceTree = "<group>"; };
 		211387102B8768F300F5422B /* EmergencyContactsWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EmergencyContactsWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		211387122B8768F300F5422B /* EmergencyContactsWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsWatchApp.swift; sourceTree = "<group>"; };
+		211387122B8768F300F5422B /* watchOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOS.swift; sourceTree = "<group>"; };
 		211387142B8768F300F5422B /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
-		211387162B8768F400F5422B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		211387192B8768F400F5422B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		212B83C62B8B9B53005B232C /* LookAround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAround.swift; sourceTree = "<group>"; };
 		212B83C82B8BACAF005B232C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -154,8 +150,8 @@
 		21869C7F2B8C92800009810E /* Izs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Izs.swift; sourceTree = "<group>"; };
 		219F1DC62B8E18B200DD5EFD /* Izs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Izs.swift; sourceTree = "<group>"; };
 		219F1DC82B8E18C400DD5EFD /* Izs.Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Izs.Item.swift; sourceTree = "<group>"; };
-		21AEFFE12B8E7FF700A9C582 /* EmergencyContactsWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EmergencyContactsWidgetExtension.entitlements; sourceTree = "<group>"; };
-		21AEFFE22B8E800B00A9C582 /* EmergencyContactsWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "EmergencyContactsWatch Watch App.entitlements"; sourceTree = "<group>"; };
+		21AEFFE12B8E7FF700A9C582 /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget.entitlements; sourceTree = "<group>"; };
+		21AEFFE22B8E800B00A9C582 /* watchOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = watchOS.entitlements; sourceTree = "<group>"; };
 		21DAFA432B88A95700A52BED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		21DAFA452B88A98400A52BED /* libswiftUIKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftUIKit.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/usr/lib/swift/libswiftUIKit.tbd; sourceTree = DEVELOPER_DIR; };
 		21EB96882B8CCD8F0075A2F5 /* ItemsList.Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsList.Filter.swift; sourceTree = "<group>"; };
@@ -192,24 +188,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		210249602B8B75A4000A37EE /* EmergencyContactsWidget */ = {
+		210249602B8B75A4000A37EE /* Widget */ = {
 			isa = PBXGroup;
 			children = (
-				21E689A02B93A11900B161A9 /* Misc */,
 				210249612B8B75A4000A37EE /* EmergencyContactsWidgetBundle.swift */,
 				210249632B8B75A4000A37EE /* EmergencyContactsWidget.swift */,
 				210249652B8B75A4000A37EE /* AppIntent.swift */,
-				210249672B8B75A5000A37EE /* Assets.xcassets */,
+				21AEFFE12B8E7FF700A9C582 /* Widget.entitlements */,
+				210249692B8B75A5000A37EE /* Info.plist */,
 			);
-			path = EmergencyContactsWidget;
+			path = Widget;
 			sourceTree = "<group>";
 		};
 		211386F12B87689A00F5422B = {
 			isa = PBXGroup;
 			children = (
-				211386FC2B87689A00F5422B /* EmergencyContacts */,
-				211387112B8768F300F5422B /* EmergencyContacts Watch App */,
-				210249602B8B75A4000A37EE /* EmergencyContactsWidget */,
+				2153A5352CE6339900AEFA3B /* Shared */,
+				211386FC2B87689A00F5422B /* iOS */,
+				211387112B8768F300F5422B /* watchOS */,
+				210249602B8B75A4000A37EE /* Widget */,
 				211386FB2B87689A00F5422B /* Products */,
 				21DAFA422B88A95600A52BED /* Frameworks */,
 			);
@@ -225,30 +222,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		211386FC2B87689A00F5422B /* EmergencyContacts */ = {
+		211386FC2B87689A00F5422B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				21F2BFDE2B8794EB0007BF31 /* Models */,
 				2159BC102B93A4D800E16DD0 /* Screens */,
 				21F2BFDA2B8794C40007BF31 /* Views */,
 				21EB968A2B8CD7BA0075A2F5 /* Utilities */,
-				21E6899C2B939F5F00B161A9 /* Misc */,
-				211386FD2B87689A00F5422B /* EmergencyContactsApp.swift */,
-				2159BC082B93A41A00E16DD0 /* Assets.xcassets */,
+				211386FD2B87689A00F5422B /* iOS.swift */,
+				211387032B87689B00F5422B /* iOS.entitlements */,
+				2159BC0C2B93A45C00E16DD0 /* Preview Content */,
+				211104932B8A8E56008B3815 /* Info.plist */,
+				213BCA6B2B8FCB8200C2B420 /* InfoPlist.xcstrings */,
 			);
-			path = EmergencyContacts;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		211387112B8768F300F5422B /* EmergencyContacts Watch App */ = {
+		211387112B8768F300F5422B /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
 				2159BC122B93A59700E16DD0 /* Screens */,
 				21F2BFDF2B87954C0007BF31 /* Views */,
-				21E6899F2B93A0CC00B161A9 /* Misc */,
-				211387122B8768F300F5422B /* EmergencyContactsWatchApp.swift */,
-				211387162B8768F400F5422B /* Assets.xcassets */,
+				211387122B8768F300F5422B /* watchOS.swift */,
+				21AEFFE22B8E800B00A9C582 /* watchOS.entitlements */,
+				211387182B8768F400F5422B /* Preview Content */,
 			);
-			path = "EmergencyContacts Watch App";
+			path = watchOS;
 			sourceTree = "<group>";
 		};
 		211387182B8768F400F5422B /* Preview Content */ = {
@@ -257,6 +256,15 @@
 				211387192B8768F400F5422B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2153A5352CE6339900AEFA3B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2145E70E2B8769AE00494930 /* Localizable.xcstrings */,
+				2159BC082B93A41A00E16DD0 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		2159BC102B93A4D800E16DD0 /* Screens */ = {
@@ -290,36 +298,6 @@
 				2102495E2B8B75A4000A37EE /* SwiftUI.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		21E6899C2B939F5F00B161A9 /* Misc */ = {
-			isa = PBXGroup;
-			children = (
-				211387032B87689B00F5422B /* EmergencyContacts.entitlements */,
-				2159BC0C2B93A45C00E16DD0 /* Preview Content */,
-				211104932B8A8E56008B3815 /* Info.plist */,
-				213BCA6B2B8FCB8200C2B420 /* InfoPlist.xcstrings */,
-				2145E70E2B8769AE00494930 /* Localizable.xcstrings */,
-			);
-			path = Misc;
-			sourceTree = "<group>";
-		};
-		21E6899F2B93A0CC00B161A9 /* Misc */ = {
-			isa = PBXGroup;
-			children = (
-				211387182B8768F400F5422B /* Preview Content */,
-				21AEFFE22B8E800B00A9C582 /* EmergencyContactsWatch Watch App.entitlements */,
-			);
-			path = Misc;
-			sourceTree = "<group>";
-		};
-		21E689A02B93A11900B161A9 /* Misc */ = {
-			isa = PBXGroup;
-			children = (
-				21AEFFE12B8E7FF700A9C582 /* EmergencyContactsWidgetExtension.entitlements */,
-				210249692B8B75A5000A37EE /* Info.plist */,
-			);
-			path = Misc;
 			sourceTree = "<group>";
 		};
 		21EB968A2B8CD7BA0075A2F5 /* Utilities */ = {
@@ -476,7 +454,6 @@
 			files = (
 				2159BC0F2B93A45C00E16DD0 /* Preview Content in Resources */,
 				2159BC0B2B93A41A00E16DD0 /* Assets.xcassets in Resources */,
-				210249682B8B75A5000A37EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +474,6 @@
 			files = (
 				2159BC0E2B93A45C00E16DD0 /* Preview Content in Resources */,
 				2113871A2B8768F400F5422B /* Preview Assets.xcassets in Resources */,
-				211387172B8768F400F5422B /* Assets.xcassets in Resources */,
 				213BCA6D2B8FCB8200C2B420 /* InfoPlist.xcstrings in Resources */,
 				21F2BFD92B876C650007BF31 /* Localizable.xcstrings in Resources */,
 				2159BC0A2B93A41A00E16DD0 /* Assets.xcassets in Resources */,
@@ -563,7 +539,7 @@
 				2159BC282B93CDD600E16DD0 /* Maps.swift in Sources */,
 				2145E7162B8769AE00494930 /* Item.swift in Sources */,
 				212B83C92B8BACAF005B232C /* Settings.swift in Sources */,
-				211386FE2B87689A00F5422B /* EmergencyContactsApp.swift in Sources */,
+				211386FE2B87689A00F5422B /* iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,7 +565,7 @@
 				211387152B8768F300F5422B /* Index.swift in Sources */,
 				21F2BFE32B87973D0007BF31 /* DataErrorHandler.swift in Sources */,
 				21F2BFE42B8797780007BF31 /* DataStore.swift in Sources */,
-				211387132B8768F300F5422B /* EmergencyContactsWatchApp.swift in Sources */,
+				211387132B8768F300F5422B /* watchOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,13 +590,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = EmergencyContactsWidget/Misc/EmergencyContactsWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4XV9V3GJPT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EmergencyContactsWidget/Misc/Info.plist;
+				INFOPLIST_FILE = Widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Emergency Contacts";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -645,13 +621,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = EmergencyContactsWidget/Misc/EmergencyContactsWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4XV9V3GJPT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EmergencyContactsWidget/Misc/Info.plist;
+				INFOPLIST_FILE = Widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Emergency Contacts";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -792,17 +768,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = EmergencyContacts/Misc/EmergencyContacts.entitlements;
+				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EmergencyContacts/Misc/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 4XV9V3GJPT;
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EmergencyContacts/Misc/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Emergency Contacts";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSLocationUsageDescription = "Your location will be used to locate the nearest emergency room.";
@@ -843,17 +819,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = EmergencyContacts/Misc/EmergencyContacts.entitlements;
+				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EmergencyContacts/Misc/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 4XV9V3GJPT;
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EmergencyContacts/Misc/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Emergency Contacts";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSLocationUsageDescription = "Your location will be used to locate the nearest emergency room.";
@@ -893,11 +869,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "EmergencyContacts Watch App/Misc/EmergencyContactsWatch Watch App.entitlements";
+				CODE_SIGN_ENTITLEMENTS = watchOS/watchOS.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EmergencyContacts Watch App/Misc/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"watchOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 4XV9V3GJPT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -928,11 +904,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "EmergencyContacts Watch App/Misc/EmergencyContactsWatch Watch App.entitlements";
+				CODE_SIGN_ENTITLEMENTS = watchOS/watchOS.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EmergencyContacts Watch App/Misc/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"watchOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 4XV9V3GJPT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
