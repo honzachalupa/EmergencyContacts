@@ -44,7 +44,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaše poloha bude použita k nazelezení nejblížší pohotovosti."
+            "value" : "Vaše poloha bude použita k nalezení nejbližší pohotovosti."
           }
         },
         "en" : {
@@ -62,7 +62,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaše poloha bude použita k nazelezení nejblížší pohotovosti."
+            "value" : "Vaše poloha bude použita k nalezení nejbližší pohotovosti."
           }
         },
         "en" : {
