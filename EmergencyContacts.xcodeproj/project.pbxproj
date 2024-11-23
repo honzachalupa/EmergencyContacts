@@ -232,8 +232,6 @@
 				211386FD2B87689A00F5422B /* iOS.swift */,
 				211387032B87689B00F5422B /* iOS.entitlements */,
 				2159BC0C2B93A45C00E16DD0 /* Preview Content */,
-				211104932B8A8E56008B3815 /* Info.plist */,
-				213BCA6B2B8FCB8200C2B420 /* InfoPlist.xcstrings */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -263,6 +261,8 @@
 			children = (
 				2145E70E2B8769AE00494930 /* Localizable.xcstrings */,
 				2159BC082B93A41A00E16DD0 /* Assets.xcassets */,
+				211104932B8A8E56008B3815 /* Info.plist */,
+				213BCA6B2B8FCB8200C2B420 /* InfoPlist.xcstrings */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -778,7 +778,7 @@
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = Shared/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Emergency Contacts";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSLocationUsageDescription = "Your location will be used to locate the nearest emergency room.";
@@ -829,7 +829,7 @@
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = Shared/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Emergency Contacts";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSLocationUsageDescription = "Your location will be used to locate the nearest emergency room.";
@@ -877,7 +877,7 @@
 				DEVELOPMENT_TEAM = 4XV9V3GJPT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = Shared/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Emergency Contacts";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = janchalupa.EmergencyContacts;
@@ -912,7 +912,7 @@
 				DEVELOPMENT_TEAM = 4XV9V3GJPT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = Shared/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Emergency Contacts";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = janchalupa.EmergencyContacts;
